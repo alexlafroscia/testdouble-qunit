@@ -11,6 +11,7 @@
     "doc": "doc",
     "test": "tests"
   },
+  "homepage": "https://alexlafroscia.com/testdouble-qunit",
   "repository": "https://github.com/alexlafroscia/testdouble-qunit",
   "scripts": {
     "build": "rollup -c",
@@ -66,6 +67,5 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  },
-  "homepage": "https://alexlafroscia.github.io/testdouble-qunit"
+  }
 }
