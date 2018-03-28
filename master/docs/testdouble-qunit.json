@@ -1,1 +1,1 @@
-{"jsonapi":{"version":"1.0"},"data":{"type":"project","id":"testdouble-qunit","attributes":{"name":"testdouble-qunit","version":"0.0.0","navigationIndex":{}},"relationships":{"modules":{"data":[]}}}}
+{"jsonapi":{"version":"1.0"},"data":{"type":"project","id":"testdouble-qunit","attributes":{"name":"testdouble-qunit","version":"1.0.0","navigationIndex":{}},"relationships":{"modules":{"data":[]}}}}
