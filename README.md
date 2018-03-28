@@ -17,7 +17,7 @@ Installation
 **For Ember applications**
 
 ```bash
-ember install testdouble-qunit
+ember install ember-cli-testdouble testdouble-qunit
 ```
 
 And then add the following to your `tests/test-helper.js` file:

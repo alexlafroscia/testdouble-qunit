@@ -11,25 +11,8 @@ When using `testdouble` for stubbing functions and `QUnit` for writing your test
 
 This library will add a `assert.verify` method to `QUnit` that allows you to verify that your stubs are called correctly.
 
-Installation
+Basic Usage
 ---------------------------------------------------------------------------------
-
-**For Ember applications**
-
-```bash
-ember install testdouble-qunit
-```
-
-And then add the following to your `tests/test-helper.js` file:
-
-```javascript
-import 'testdouble-qunit';
-```
-
-Example
----------------------------------------------------------------------------------
-
-**Basic Usage**
 
 ```javascript
 import td from 'testdouble';
@@ -39,19 +22,6 @@ test('verifying a stub', function(assert) {
   stubFunction('foobar');
 
   assert.verify(stubFunction('foobar'));
-});
-```
-
-**With a matcher**
-
-```javascript
-import td from 'testdouble';
-
-test('verifying a stub', function(assert) {
-  const stubFunction = td.function();
-  stubFunction({ foo: 'bar' });
-
-  assert.verify(stubFunction(td.matchers.isA(Object)));
 });
 ```
 

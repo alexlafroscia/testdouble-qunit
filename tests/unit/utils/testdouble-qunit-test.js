@@ -10,5 +10,23 @@ module('testdouble-qunit', function() {
 
       assert.verify(stub('foo'));
     });
+
+    module('checking call count', function() {
+      test('stub is never called', function(assert) {
+        const stub = td.function();
+
+        assert.verify(stub(), { times: 0 });
+        assert.verify(stub('foo'), { times: 0 });
+      });
+
+      test('stub is called twice', function(assert) {
+        const stub = td.function();
+
+        stub('foo');
+        stub('foo');
+
+        assert.verify(stub('foo'), { times: 2 });
+      });
+    });
   });
 });
