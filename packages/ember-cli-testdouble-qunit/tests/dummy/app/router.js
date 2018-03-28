@@ -8,7 +8,11 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('docs', function() {
-    this.route('installation');
+    this.route('packages', function() {
+      this.route('testdouble-qunit');
+      this.route('ember-cli-testdouble-qunit');
+    });
+
     this.route('examples', function() {
       this.route('call-count');
     });

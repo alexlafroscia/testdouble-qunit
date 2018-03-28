@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  name: 'testdouble-qunit',
+  name: 'ember-cli-testdouble-qunit',
 
   included() {
     this._super.included.apply(this, arguments);

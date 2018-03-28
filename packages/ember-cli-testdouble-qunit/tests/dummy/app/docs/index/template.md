@@ -5,25 +5,23 @@ testdouble-qunit
 
 > Verify [`testdouble`][testdouble] stubs with [`QUnit`][qunit]
 
-When using `testdouble` for stubbing functions and `QUnit` for writing your tests, you'll likely run into wanting to verify that your stub was called.
-
-`testdouble` has a handle `td.verify` function, but it doesn't play that nicely with `QUnit`; `QUnit` assumes you'll have at least one assertion, and if you allow `testdouble` to throw an error, it will prevent other assertions from being run.
-
-This library will add a `assert.verify` method to `QUnit` that allows you to verify that your stubs are called correctly.
-
-Basic Usage
----------------------------------------------------------------------------------
+This library adds a `assert.verify` method to `QUnit` that allows you to verify that your stubs are called correctly.
 
 ```javascript
-import td from 'testdouble';
+test('the stub is called', function(assert) {
+  const stub = td.function();
 
-test('verifying a stub', function(assert) {
-  const stubFunction = td.function();
-  stubFunction('foobar');
+  stub('foo');
 
-  assert.verify(stubFunction('foobar'));
+  assert.verify(stub('foo'));
 });
 ```
 
+For installation information, go here:
+
+- {{docs-link 'testdouble-qunit' 'docs.packages.testdouble-qunit'}}
+- {{docs-link 'ember-cli-testdouble-qunit' 'docs.packages.ember-cli-testdouble-qunit'}}
+
 [testdouble]: https://github.com/testdouble/testdouble.js/
 [qunit]: https://qunitjs.com
+[documentation]: http://alexlafroscia.com/testdouble-qunit
