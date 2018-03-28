@@ -16,6 +16,7 @@
   "homepage": "https://alexlafroscia.com/testdouble-qunit",
   "repository": "https://github.com/alexlafroscia/testdouble-qunit",
   "scripts": {
+    "deploy": "ember deploy production",
     "start": "ember serve",
     "test": "ember test"
   },

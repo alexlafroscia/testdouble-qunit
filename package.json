@@ -8,7 +8,7 @@
     "packages/*"
   ],
   "scripts": {
-    "deploy": "packages/ember-cli-testdouble-qunit/node_modules/.bin/ember deploy production",
+    "deploy": "lerna run deploy",
     "lint": "eslint .",
     "test": "lerna run test"
   },
