@@ -23,7 +23,11 @@ ember install ember-cli-testdouble testdouble-qunit
 And then add the following to your `tests/test-helper.js` file:
 
 ```javascript
-import 'testdouble-qunit';
+import testdoubleQunit from 'testdouble-qunit';
+import QUnit from 'qunit';
+import td from 'testdouble';
+
+testdoubleQunit(QUnit, td);
 ```
 
 Example

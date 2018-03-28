@@ -32,8 +32,7 @@ module.exports = {
         'tests/dummy/config/**/*.js'
       ],
       excludedFiles: [
-        'app/**',
-        'addon/**',
+        'lib/**',
         'tests/dummy/app/**'
       ],
       parserOptions: {
