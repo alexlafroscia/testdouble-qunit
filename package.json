@@ -1,6 +1,6 @@
 {
   "name": "testdouble-qunit",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Verify testdouble stubs with QUnit",
   "keywords": [
     "ember-addon"
