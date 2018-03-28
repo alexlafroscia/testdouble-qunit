@@ -20,6 +20,12 @@ Installation
 ember install testdouble-qunit
 ```
 
+And then add the following to your `tests/test-helper.js` file:
+
+```javascript
+import 'testdouble-qunit';
+```
+
 Example
 ---------------------------------------------------------------------------------
 
