@@ -26,6 +26,6 @@ script:
   - yarn test
 
 after_success:
-  - if [[ ($TRAVIS_BRANCH == master || -n $TRAVIS_TAG) && $EMBER_TRY_SCENARIO == ember-default ]]; then
-      node_modules/.bin/ember deploy production;
+  - if [[ ($TRAVIS_BRANCH == master || -n $TRAVIS_TAG) ]]; then
+      yarn deploy
     fi
