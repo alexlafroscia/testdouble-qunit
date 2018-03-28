@@ -1,0 +1,29 @@
+{
+  "name": "testdouble-qunit",
+  "version": "1.0.1",
+  "description": "Verify testdouble stubs with QUnit",
+  "main": "dist/testdouble-qunit.cjs.js",
+  "keywords": [
+    "testdouble",
+    "qunit"
+  ],
+  "license": "MIT",
+  "author": "Alex LaFroscia <alex@lafroscia.com>",
+  "homepage": "https://alexlafroscia.com/testdouble-qunit",
+  "repository": "https://github.com/alexlafroscia/testdouble-qunit",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "yarn build",
+    "test": "yarn build && qunit tests/testdouble-qunit-test.js"
+  },
+  "devDependencies": {
+    "qunit": "^2.6.0",
+    "qunit-cli": "^0.2.0",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "testdouble": "^3.6.0"
+  },
+  "engines": {
+    "node": "6.* || >= 7.*"
+  }
+}
