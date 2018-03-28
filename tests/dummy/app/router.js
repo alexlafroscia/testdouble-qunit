@@ -8,8 +8,6 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('docs', function() {
-    this.route('installation');
-
     this.route('api', function() {
       this.route('item', { path: '/*path' });
     });

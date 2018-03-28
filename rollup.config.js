@@ -13,7 +13,7 @@ export default {
   output: {
     name: pkg.name,
     format: 'umd',
-    file: './dist/testdouble-qunit.umd.js',
+    file: './output/testdouble-qunit.umd.js',
     globals: {
       qunit: 'QUnit',
       testdouble: 'td'

@@ -16,7 +16,7 @@ module.exports = {
   },
 
   treeForVendor(vendorTree) {
-    let qunitPluginTree = new Funnel(`${__dirname}/dist`, {
+    let qunitPluginTree = new Funnel(`${__dirname}/output`, {
       files: ['testdouble-qunit.umd.js']
     });
 
