@@ -22,5 +22,11 @@
     "tag": "v1.0.1",
     "path": "v1.0.1",
     "name": "v1.0.1"
+  },
+  "v2.0.0-beta.0": {
+    "sha": "7f66e1352d89cbb1e042f991e5b7050aac6244a9",
+    "tag": "v2.0.0-beta.0",
+    "path": "v2.0.0-beta.0",
+    "name": "v2.0.0-beta.0"
   }
 }
