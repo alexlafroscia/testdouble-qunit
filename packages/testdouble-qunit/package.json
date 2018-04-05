@@ -9,8 +9,11 @@
   ],
   "license": "MIT",
   "author": "Alex LaFroscia <alex@lafroscia.com>",
-  "homepage": "https://alexlafroscia.com/testdouble-qunit",
-  "repository": "https://github.com/alexlafroscia/testdouble-qunit",
+  "directories": {
+    "test": "tests"
+  },
+  "homepage": "http://alexlafroscia.com/testdouble-qunit",
+  "repository": "https://github.com/alexlafroscia/testdouble-qunit/tree/master/packages/testdouble-qunit",
   "scripts": {
     "build": "rollup -c",
     "prepublish": "yarn build",

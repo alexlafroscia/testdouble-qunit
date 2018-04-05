@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-testdouble-qunit",
   "version": "2.0.0-beta.0",
-  "description": "Verify testdouble stubs with QUnit",
+  "description": "Verify testdouble stubs with QUnit (Ember wrapper addon)",
   "keywords": [
     "ember-addon",
     "testdouble",
@@ -10,11 +10,10 @@
   "license": "MIT",
   "author": "Alex LaFroscia <alex@lafroscia.com.",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
-  "homepage": "https://alexlafroscia.com/testdouble-qunit",
-  "repository": "https://github.com/alexlafroscia/testdouble-qunit",
+  "homepage": "http://alexlafroscia.com/testdouble-qunit",
+  "repository": "https://github.com/alexlafroscia/testdouble-qunit/tree/master/packages/ember-cli-testdouble-qunit",
   "scripts": {
     "deploy": "ember deploy production",
     "start": "ember serve",
