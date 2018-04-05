@@ -17,8 +17,16 @@ test('the stub is called', function(assert) {
 });
 ```
 
+Packages
+---------------------------------------------------------------------------------
+
+- [`testdouble-qunit`][testdouble-qunit-source] Sets up the `assert.verify` helper
+- [`ember-cli-testdouble-qunit`][ember-cli-testdouble-qunit-source] Ember addon convenience wrapper
+
 For more information and examples, check out [the documentation][documentation].
 
 [testdouble]: https://github.com/testdouble/testdouble.js/
 [qunit]: https://qunitjs.com
+[testdouble-qunit-source]: https://github.com/alexlafroscia/testdouble-qunit/tree/master/packages/testdouble-qunit
+[ember-cli-testdouble-qunit-source]: https://github.com/alexlafroscia/testdouble-qunit/tree/master/packages/ember-cli-testdouble-qunit
 [documentation]: http://alexlafroscia.com/testdouble-qunit
