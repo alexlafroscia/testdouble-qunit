@@ -1,6 +1,6 @@
 {
   "name": "testdouble-qunit",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Verify testdouble stubs with QUnit",
   "main": "dist/testdouble-qunit.cjs.js",
   "keywords": [
