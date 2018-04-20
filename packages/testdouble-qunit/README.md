@@ -7,7 +7,10 @@ Installation
 First, install the library. [`QUnit`][qunit] and [`testdouble`][testdouble] must also be installed.
 
 ```bash
+# For Yarn
 yarn add -D testdouble-qunit
+# For NPM
+npm install --save-dev testdouble-qunit
 ```
 
 Now, before your tests run, install the assertion helper

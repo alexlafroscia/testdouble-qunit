@@ -1,6 +1,8 @@
 ember-cli-testdouble-qunit
 =================================================================================
 
+This Ember addon exposes `testdouble-qunit` so that you can easily consume it in your application.
+
 Installation
 ---------------------------------------------------------------------------------
 
@@ -13,6 +15,7 @@ ember install ember-cli-testdouble-qunit
 Next, install the assertion helper. Add the following anywhere in your `tests/test-helper.js` file:
 
 ```javascript
+// tests/test-helper.js
 import 'ember-cli-testdouble-qunit';
 ```
 
@@ -33,8 +36,6 @@ test('the stub is called', function(assert) {
 });
 ```
 
-The signature of `assert.verify` is the same as `td.verify`; in fact, the arguments are passed directly through.
+For more information, check out the [`testdouble.js`][testdouble-docs] documentation.
 
-For more information and examples, check out [the documentation][documentation].
-
-[documentation]: http://alexlafroscia.com/testdouble-qunit
+[testdouble-docs]: https://github.com/testdouble/testdouble.js/tree/master/docs

@@ -1,8 +1,10 @@
-# `testdouble-qunit`
+testdouble-qunit
+=================================================================================
 
-This library exposes a function that will set `QUnit` up with some additional assertions that are helpful when using `testdouble`.
+Installation
+---------------------------------------------------------------------------------
 
-## Installation
+First, install the library. [`QUnit`][qunit] and [`testdouble`][testdouble] must also be installed.
 
 ```bash
 # For Yarn
@@ -11,12 +13,33 @@ yarn add -D testdouble-qunit
 npm install --save-dev testdouble-qunit
 ```
 
-You also have to "set up" the integration by running the following before your tests.
+Now, before your tests run, install the assertion helper
 
 ```javascript
-const injectVerifyAssertion = require('testdouble-qunit');
-const QUnit = require('qunit');
-const td = require('testdouble');
+import QUnit from 'qunit';
+import td from 'testdouble';
+import installVerifyAssertion from 'testdouble-qunit';
 
-injectVerifyAssertion(QUnit, td);
+installVerifyAssertion(QUnit, td);
 ```
+
+Usage
+---------------------------------------------------------------------------------
+
+This library adds a `assert.verify` method that allows you to verify that your stubs are called correctly.
+
+```javascript
+test('the stub is called', function(assert) {
+  const stub = td.function();
+
+  stub('foo');
+
+  assert.verify(stub('foo'));
+});
+```
+
+For more information, check out the [`testdouble.js`][testdouble-docs] documentation.
+
+[testdouble]: https://github.com/testdouble/testdouble.js/
+[qunit]: https://qunitjs.com
+[testdouble-docs]: https://github.com/testdouble/testdouble.js/tree/master/docs
