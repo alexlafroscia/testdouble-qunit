@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-testdouble-qunit",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Verify testdouble stubs with QUnit (Ember wrapper addon)",
   "keywords": [
     "ember-addon",
@@ -22,7 +22,7 @@
   "dependencies": {
     "broccoli-funnel": "^2.0.1",
     "ember-cli-babel": "^6.6.0",
-    "testdouble-qunit": "^2.0.0"
+    "testdouble-qunit": "^2.0.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.7.0",
