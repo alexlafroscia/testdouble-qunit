@@ -7,6 +7,6 @@ module.exports = {
   normalizeEntityName() {},
 
   afterInstall() {
-    return this.addPackageToProject('ember-cli-testdouble', '^0.1.3');
+    return this.addAddonToProject('ember-cli-testdouble');
   }
 };

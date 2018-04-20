@@ -5,15 +5,20 @@ This Ember addon exposes `testdouble-qunit` so that you can easily consume it in
 ## Installation
 
 ```bash
-ember install ember-cli-testdouble ember-cli-testdouble-qunit
+ember install ember-cli-testdouble-qunit
 ```
 
-Then, import the module in your `tests/test-helper.js` file to install the integration:
+This will also install [`ember-cli-testdouble`][ember-cli-testdouble] (and through it, `testdouble`) for you automatically.
+
+Then, inject the new assertion by adding the following anywhere in your `tests/test-helper.js` file:
 
 ```javascript
-import testdoubleQunit from 'testdouble-qunit';
+// tests/test-helper.js
+import injectVerifyAssertion from 'testdouble-qunit';
 import QUnit from 'qunit';
 import td from 'testdouble';
 
-testdoubleQunit(QUnit, td);
+injectVerifyAssertion(QUnit, td);
 ```
+
+[ember-cli-testdouble]: https://github.com/isleofcode/ember-cli-testdouble
