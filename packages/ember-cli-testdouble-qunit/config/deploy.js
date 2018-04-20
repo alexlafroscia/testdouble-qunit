@@ -5,6 +5,7 @@ module.exports = function(deployTarget) {
   let ENV = {
     build: {},
     git: {
+      repo: 'git@github.com:alexlafroscia/testdouble-qunit.git',
       worktreePath: '../../../deploy-testdouble-qunit'
     }
   };
