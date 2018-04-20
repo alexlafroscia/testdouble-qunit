@@ -15,6 +15,7 @@ Router.map(function() {
 
     this.route('examples', function() {
       this.route('call-count');
+      this.route('stubbing');
     });
 
     this.route('api', function() {
