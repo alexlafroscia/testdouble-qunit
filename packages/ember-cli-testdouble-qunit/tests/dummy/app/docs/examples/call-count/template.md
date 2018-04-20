@@ -6,7 +6,7 @@
 test('stub is never called', function(assert) {
   const stub = td.function();
 
-  assert.verify(stub(), { times: 0 });
+  assert.verify(stub(), { times: 0, ignoreExtraArgs: true });
 });
 ```
 
