@@ -7,16 +7,9 @@ module.exports = {
   env: {
     node: true
   },
-  plugins: [
-    'prettier'
-  ],
-  extends: [
-    'eslint:recommended',
-    'prettier'
-  ],
+  plugins: ['prettier'],
+  extends: ['eslint:recommended', 'prettier'],
   rules: {
-    'prettier/prettier': ['error', {
-      singleQuote: true
-    }]
-  },
+    'prettier/prettier': 'error'
+  }
 };
