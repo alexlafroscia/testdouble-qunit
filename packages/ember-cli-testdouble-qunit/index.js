@@ -3,7 +3,7 @@
 const Funnel = require('broccoli-funnel');
 
 module.exports = {
-  name: 'ember-cli-testdouble-qunit',
+  name: require('./package').name,
 
   included() {
     this._super.included.apply(this, arguments);

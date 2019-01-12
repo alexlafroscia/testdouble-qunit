@@ -20,10 +20,11 @@
     "test": "yarn build && qunit tests/testdouble-qunit-test.js"
   },
   "devDependencies": {
-    "qunit": "^2.6.0",
+    "@babel/core": "^7.2.2",
+    "qunit": "^2.9.1",
     "qunit-cli": "^0.2.0",
-    "rollup": "^0.57.1",
-    "rollup-plugin-babel": "^3.0.3",
+    "rollup": "^1.1.0",
+    "rollup-plugin-babel": "^4.3.0",
     "testdouble": "^3.6.0"
   },
   "engines": {
