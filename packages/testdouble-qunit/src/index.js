@@ -6,19 +6,22 @@
  */
 export default function addVerifyToQunit(QUnit, td) {
   QUnit.extend(QUnit.assert, {
-    verify() {
-      try {
-        td.verify(...arguments);
+    verify(invocation, optionsOrMessage, possibleMessage) {
+      let verifyOptions,
+        message = possibleMessage || 'Stub passed verification';
 
-        this.pushResult({
-          result: true,
-          message: 'Stub passed verification'
-        });
+      if (typeof optionsOrMessage === 'string') {
+        message = optionsOrMessage;
+      } else if (optionsOrMessage) {
+        verifyOptions = optionsOrMessage;
+      }
+
+      try {
+        td.verify(invocation, verifyOptions);
+
+        this.pushResult({ result: true, message });
       } catch ({ message }) {
-        this.pushResult({
-          result: false,
-          message
-        });
+        this.pushResult({ result: false, message });
       }
     }
   });

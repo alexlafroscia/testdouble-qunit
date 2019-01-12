@@ -17,7 +17,7 @@
   "scripts": {
     "build": "rollup -c",
     "prepublish": "yarn build",
-    "test": "yarn build && qunit tests/testdouble-qunit-test.js"
+    "test": "yarn build && qunit"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
