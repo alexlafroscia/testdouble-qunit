@@ -27,7 +27,7 @@ QUnit.module('assert.verify', function() {
       assert.verify(stub(), { times: 0 }, 'The stub is never called');
     });
 
-    QUnit.test('when options are also provided', function(assert) {
+    QUnit.test('when options are not provided', function(assert) {
       const stub = td.function();
 
       stub('foo');

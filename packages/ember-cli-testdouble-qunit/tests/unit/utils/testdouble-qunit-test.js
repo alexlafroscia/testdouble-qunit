@@ -23,7 +23,7 @@ module('ember-cli-testdouble-qunit', function() {
       assert.verify(stub(), { times: 0 }, 'The stub is never called');
     });
 
-    test('when options are also provided', function(assert) {
+    test('when options are not provided', function(assert) {
       const stub = td.function();
 
       stub('foo');
