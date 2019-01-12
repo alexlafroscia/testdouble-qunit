@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.1.1"></a>
+## [2.1.1](https://github.com/alexlafroscia/testdouble-qunit/tree/master/packages/testdouble-qunit/compare/v2.1.0...v2.1.1) (2019-01-12)
+
+
+### Bug Fixes
+
+* improve TypeScript definition ([ed9fc93](https://github.com/alexlafroscia/testdouble-qunit/tree/master/packages/testdouble-qunit/commit/ed9fc93))
+
+
+
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/alexlafroscia/testdouble-qunit/tree/master/packages/testdouble-qunit/compare/v2.0.2...v2.1.0) (2019-01-12)
 
