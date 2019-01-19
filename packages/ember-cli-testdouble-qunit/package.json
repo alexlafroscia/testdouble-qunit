@@ -12,7 +12,7 @@
   "directories": {
     "test": "tests"
   },
-  "homepage": "http://alexlafroscia.com/testdouble-qunit",
+  "homepage": "https://alexlafroscia.github.io/testdouble-qunit",
   "repository": "https://github.com/alexlafroscia/testdouble-qunit/tree/master/packages/ember-cli-testdouble-qunit",
   "scripts": {
     "deploy": "ember deploy production",
