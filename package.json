@@ -1,7 +1,7 @@
 {
   "name": "testdouble-qunit",
   "version": "1.0.1",
-  "homepage": "https://alexlafroscia.com/testdouble-qunit",
+  "homepage": "https://alexlafroscia.github.io/testdouble-qunit",
   "repository": "https://github.com/alexlafroscia/testdouble-qunit",
   "private": true,
   "workspaces": [
