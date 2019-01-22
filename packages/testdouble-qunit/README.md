@@ -1,8 +1,6 @@
-testdouble-qunit
-=================================================================================
+# testdouble-qunit
 
-Installation
----------------------------------------------------------------------------------
+## Installation
 
 First, install the library. [`QUnit`][qunit] and [`testdouble`][testdouble] must also be installed.
 
@@ -23,8 +21,7 @@ import installVerifyAssertion from 'testdouble-qunit';
 installVerifyAssertion(QUnit, td);
 ```
 
-Usage
----------------------------------------------------------------------------------
+## Usage
 
 This library adds a `assert.verify` method that allows you to verify that your stubs are called correctly.
 
@@ -44,4 +41,4 @@ For more information and examples, check out [the documentation][documentation].
 
 [testdouble]: https://github.com/testdouble/testdouble.js/
 [qunit]: https://qunitjs.com
-[documentation]: http://alexlafroscia.com/testdouble-qunit
+[documentation]: http://alexlafroscia.github.io/testdouble-qunit

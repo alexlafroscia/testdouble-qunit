@@ -24,4 +24,4 @@ For installation information, go here:
 
 [testdouble]: https://github.com/testdouble/testdouble.js/
 [qunit]: https://qunitjs.com
-[documentation]: http://alexlafroscia.com/testdouble-qunit
+[documentation]: http://alexlafroscia.github.io/testdouble-qunit
