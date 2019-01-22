@@ -1,50 +1,57 @@
 {
   "master": {
-    "sha": "a242c83fcf5b3e737a4f2913904443db6c7bea68",
-    "tag": null,
-    "path": "master",
-    "name": "master"
+    "path": "versions/master",
+    "name": "master",
+    "sha": "05e251cc10a3a0d41a3181fb1616007d82b21032",
+    "tag": null
   },
   "v1.0.0": {
     "sha": "db99c77b94ac11a8fde4cd6704545fed8c696b70",
     "tag": "v1.0.0",
-    "path": "v1.0.0",
-    "name": "v1.0.0"
-  },
-  "latest": {
-    "sha": "a242c83fcf5b3e737a4f2913904443db6c7bea68",
-    "tag": "v2.0.2",
-    "path": "latest",
-    "name": "latest"
+    "path": "versions/v1.0.0",
+    "name": "v1.0.0",
+    "oldPath": "v1.0.0"
   },
   "v1.0.1": {
     "sha": "b66146c8181b2cc2c5253bca85cf4c47936050b1",
     "tag": "v1.0.1",
-    "path": "v1.0.1",
-    "name": "v1.0.1"
+    "path": "versions/v1.0.1",
+    "name": "v1.0.1",
+    "oldPath": "v1.0.1"
   },
   "v2.0.0-beta.0": {
     "sha": "7f66e1352d89cbb1e042f991e5b7050aac6244a9",
     "tag": "v2.0.0-beta.0",
-    "path": "v2.0.0-beta.0",
-    "name": "v2.0.0-beta.0"
+    "path": "versions/v2.0.0-beta.0",
+    "name": "v2.0.0-beta.0",
+    "oldPath": "v2.0.0-beta.0"
   },
   "v2.0.0": {
     "sha": "b579ee3b1ba3d5c0fa0372a1e14a07d7cf17a5df",
     "tag": "v2.0.0",
-    "path": "v2.0.0",
-    "name": "v2.0.0"
+    "path": "versions/v2.0.0",
+    "name": "v2.0.0",
+    "oldPath": "v2.0.0"
   },
   "v2.0.1": {
     "sha": "bcbeec98c09c969b0a9e64f81f4146104a8ad1bc",
     "tag": "v2.0.1",
-    "path": "v2.0.1",
-    "name": "v2.0.1"
+    "path": "versions/v2.0.1",
+    "name": "v2.0.1",
+    "oldPath": "v2.0.1"
   },
   "v2.0.2": {
     "sha": "a242c83fcf5b3e737a4f2913904443db6c7bea68",
     "tag": "v2.0.2",
-    "path": "v2.0.2",
-    "name": "v2.0.2"
+    "path": "versions/v2.0.2",
+    "name": "v2.0.2",
+    "oldPath": "v2.0.2"
+  },
+  "-latest": {
+    "sha": "a242c83fcf5b3e737a4f2913904443db6c7bea68",
+    "tag": "v2.0.2",
+    "path": "",
+    "name": "Latest",
+    "oldPath": "latest"
   }
 }
