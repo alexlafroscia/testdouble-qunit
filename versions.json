@@ -48,10 +48,9 @@
     "oldPath": "v2.0.2"
   },
   "-latest": {
-    "sha": "a242c83fcf5b3e737a4f2913904443db6c7bea68",
-    "tag": "v2.0.2",
     "path": "",
     "name": "Latest",
-    "oldPath": "latest"
+    "sha": "05e251cc10a3a0d41a3181fb1616007d82b21032",
+    "tag": null
   }
 }
