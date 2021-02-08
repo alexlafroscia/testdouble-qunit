@@ -1,7 +1,26 @@
-# Change Log
+# Changelog
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [3.0.0](https://github.com///compare/v2.1.1...v3.0.0) (2021-02-08)
+
+### ⚠ BREAKING CHANGES
+
+- The type definition is now generated from the
+  TypeScript compiler (through microbundle) so... things might be broken
+  now? They shouldn't, but in case this was dangerous, it's worth calling
+  it out.
+- The shape of `dist` has changed, so the next version
+  should be a "major" release.
+
+### Bug Fixes
+
+- add typings to repo ([db99f01](https://github.com///commit/db99f01cfd7fcab57c2618aca0ffb4f2bea4d02d))
+- avoid deprecated QUnit.extend API ([804a9d3](https://github.com///commit/804a9d329f1aba1e4c44d7361200603340b8afc2))
+- update documentation site links ([b8a810d](https://github.com///commit/b8a810d561f1a8e0ff16ce1c9c8d2fe694213a26))
+
+- convert source to TypeScript ([5c2b3ea](https://github.com///commit/5c2b3ea3c376b334d57344c851f57ef694ce86e5))
+- replace Rollup with Microbundle ([29f8e3b](https://github.com///commit/29f8e3b45ddc4ca577204d200bdca5d2c5d37577))
 
 <a name="2.1.1"></a>
 
