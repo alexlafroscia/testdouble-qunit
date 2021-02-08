@@ -1,5 +1,7 @@
 # testdouble-qunit
 
+[![CI](https://github.com/alexlafroscia/testdouble-qunit/workflows/CI/badge.svg)](https://github.com/alexlafroscia/testdouble-qunit/actions?query=workflow%3ACI)
+
 > Verify [`testdouble`][testdouble] stubs with [`QUnit`][qunit]
 
 This library adds a `assert.verify` method to `QUnit` that allows you to verify that your stubs are called correctly.
