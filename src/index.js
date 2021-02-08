@@ -5,7 +5,7 @@
  * @param {Object} td a reference to testdouble
  */
 export default function addVerifyToQunit(QUnit, td) {
-  QUnit.extend(QUnit.assert, {
+  Object.assign(QUnit.assert, {
     verify(invocation, optionsOrMessage, possibleMessage) {
       let verifyOptions,
         message = possibleMessage || 'Stub passed verification';
