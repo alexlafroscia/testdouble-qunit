@@ -1,0 +1,14 @@
+{
+  "extends": ["@movable/eslint-config", "@movable/eslint-config-typescript"],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off"
+  },
+  "overrides": [
+    {
+      "files": ["test/**"],
+      "env": {
+        "node": true
+      }
+    }
+  ]
+}
