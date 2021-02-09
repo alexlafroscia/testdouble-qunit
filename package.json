@@ -25,17 +25,20 @@
     "typecheck": "tsc --noEmit src/index.ts",
     "pretest": "microbundle",
     "test": "qunit",
-    "prepublishOnly": "microbundle",
-    "release": "standard-version"
+    "release": "standard-version",
+    "postinstall": "husky install",
+    "prepublishOnly": "microbundle && pinst --disable",
+    "postpublish": "pinst --enable"
   },
   "devDependencies": {
     "@movable/eslint-config": "^0.6.9",
     "@movable/eslint-config-typescript": "^0.2.1",
     "@movable/prettier-config": "^0.3.6",
     "@types/qunit": "^2.11.1",
-    "husky": "^5.0.9",
+    "husky": "5",
     "lint-staged": "^10.5.4",
     "microbundle": "^0.13.0",
+    "pinst": "^2.1.4",
     "qunit": "^2.14.0",
     "standard-version": "^9.1.0",
     "testdouble": "^3.16.1",
