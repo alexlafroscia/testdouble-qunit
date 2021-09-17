@@ -43,8 +43,13 @@ export default function addVerifyToQunit(QUnit: QUnit, td: VerifyContainer): voi
         td.verify(invocation, verifyOptions);
 
         this.pushResult({ result: true, message, actual: undefined, expected: undefined });
-      } catch ({ message }) {
-        this.pushResult({ result: false, message, actual: undefined, expected: undefined });
+      } catch (error: any) {
+        this.pushResult({
+          result: false,
+          message: error.message,
+          actual: undefined,
+          expected: undefined,
+        });
       }
     },
   });
