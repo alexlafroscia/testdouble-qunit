@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.2](https://github.com///compare/v3.0.1...v3.0.2) (2021-11-29)
+
+### Bug Fixes
+
+- only publish compiled output ([d7ea118](https://github.com///commit/d7ea118cccae157f317b4fa0987113f38ccfa0ee))
+
 ### [3.0.1](https://github.com///compare/v3.0.0...v3.0.1) (2021-11-29)
 
 ### Bug Fixes
