@@ -11,6 +11,9 @@
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "testdouble",
     "qunit"
