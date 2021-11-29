@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com///compare/v3.0.0...v3.0.1) (2021-11-29)
+
+### Bug Fixes
+
+- support native ESM in Node ([2cff572](https://github.com///commit/2cff572a0dd0adef9b744566365738444ac333bb))
+
 ## [3.0.0](https://github.com///compare/v2.1.1...v3.0.0) (2021-02-08)
 
 ### ⚠ BREAKING CHANGES
