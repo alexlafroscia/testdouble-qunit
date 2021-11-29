@@ -29,9 +29,8 @@
     "pretest": "microbundle",
     "test": "qunit",
     "release": "standard-version",
-    "postinstall": "husky install",
-    "prepublishOnly": "microbundle && pinst --disable",
-    "postpublish": "pinst --enable"
+    "prepare": "husky install",
+    "prepublishOnly": "microbundle"
   },
   "devDependencies": {
     "@movable/eslint-config": "^0.6.9",
@@ -41,7 +40,6 @@
     "husky": "7",
     "lint-staged": "^12.1.2",
     "microbundle": "^0.14.0",
-    "pinst": "^2.1.4",
     "qunit": "^2.14.0",
     "standard-version": "^9.1.0",
     "testdouble": "^3.16.1",
