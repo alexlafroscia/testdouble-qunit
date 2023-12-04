@@ -41,7 +41,7 @@
     "@movable/prettier-config": "^0.3.6",
     "@types/qunit": "^2.11.1",
     "husky": "7",
-    "lint-staged": "^12.1.2",
+    "lint-staged": "^15.2.0",
     "microbundle": "^0.15.0",
     "qunit": "^2.14.0",
     "standard-version": "^9.1.0",
