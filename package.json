@@ -46,7 +46,7 @@
     "qunit": "^2.14.0",
     "standard-version": "^9.1.0",
     "testdouble": "^3.16.1",
-    "typescript": "^4.1.3"
+    "typescript": "^5.4.2"
   },
   "volta": {
     "node": "14.15.4",
