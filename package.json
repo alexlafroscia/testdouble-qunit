@@ -36,7 +36,7 @@
     "prepublishOnly": "microbundle"
   },
   "devDependencies": {
-    "@movable/eslint-config": "^0.6.9",
+    "@movable/eslint-config": "^3.0.0",
     "@movable/eslint-config-typescript": "^1.0.1",
     "@movable/prettier-config": "^0.3.6",
     "@types/qunit": "^2.11.1",
