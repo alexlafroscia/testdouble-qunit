@@ -16,6 +16,7 @@
   ],
   "keywords": [
     "testdouble",
+    "qunit-plugin",
     "qunit"
   ],
   "license": "MIT",
